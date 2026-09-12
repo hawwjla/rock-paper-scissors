@@ -1,6 +1,3 @@
-// console.log("Hell world");
-
-
 function getComputerChoice() {
     let choice = Math.floor(Math.random() * 3);
     
@@ -8,9 +5,6 @@ function getComputerChoice() {
     else if (choice === 1) return "paper";
     else if (choice === 2) return "scissors";
 }
-
-// console.log(getComputerChoice());
-
 
 function getHumanChoice() {
     let choice = prompt("enter your choice (rock / paper / scissors)");
@@ -75,5 +69,3 @@ function playGame(times) {
     else if (computerScore > humanScore) return "Computer wins!"
     else if (computerScore < humanScore) return "You win!"
 }
-
-// console.log(playGame(5))
