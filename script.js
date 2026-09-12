@@ -34,7 +34,7 @@ function playGame(times) {
 
     function playRound(humanChoice, computerChoice) {
         if (humanChoice === computerChoice)
-            return "tie";
+            return `Its a tie! ${humanChoice} and ${computerChoice} are equal!`;
     
         if (humanChoice === "rock" && computerChoice === "scissors")
         {
